@@ -1,0 +1,154 @@
+/* For Small devices  */
+@media only screen and (max-width: 767.98px) {
+  body {
+    padding-top: 0px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .banner-area {
+    padding: 3.125rem;
+    flex-direction: column;
+    height: max-content;
+  }
+
+  .banner-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-content p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .live-btn {
+    margin: 0 auto;
+  }
+
+  .banner-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-area {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    animation: 1s ease-out 0s slideright;
+    padding: 20px;
+  }
+
+  .banner-model {
+    width: 100%;
+    padding-top: 3.125rem;
+    margin-bottom: -3.125em;
+  }
+
+  li {
+    display: block;
+    margin: 1.25em;
+  }
+
+  /* match live area */
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    padding-top: 50px;
+  }
+
+  /* side bar area */
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .sidebar a {
+    border: 1px solid #e8e8e8;
+  }
+}
+
+/* For Medium devices   */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    padding-top: 0px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .banner-area {
+    padding: 3.125rem;
+    height: max-content;
+  }
+
+  .banner-content {
+    width: 50%;
+  }
+
+  .banner-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-model {
+    width: 30%;
+    padding-top: 3.125rem;
+    margin-bottom: -3.125em;
+  }
+
+  /* match live area */
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    padding-top: 3.125rem;
+  }
+
+  /* side bar area  */
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: fit-content;
+    background-color: #fff;
+
+    padding: 0.95rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .sidebar a {
+    border: 1px solid #e8e8e8;
+    width: 33%;
+  }
+
+  .card-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    animation: 1s ease-out 0s slideright;
+    padding: 1.25rem;
+  }
+
+  .tab-only {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 200px;
+  }
+}
